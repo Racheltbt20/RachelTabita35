@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Halaman 2</title>
+</head>
+<body>
+
+    <h1>Tambah data Siswa</h1>
+    <p>Isikan semua data dengan benar, lalu tekan simpan</p>
+
+    <table>
+        <tr>
+            <td><label for="nama">Nama</label></td>
+            <td><input type="text" id="nama" name="nama"></td>
+        </tr>
+        <tr>
+            <td>Kota Lahir</td>
+            <td><select> 
+                <option selected disabled>Pilih Kota</option>
+                <option>Surabaya</option> 
+                <option>Jakarta</option>
+                <option>Sidoarjo</option> 
+            </select></td>
+        </tr>
+        <tr>
+            <td>Tanggal Lahir</td>
+            <td><input type="date" name="tanggal"></td>
+        </tr>
+        <tr>
+            <td>Agama</td>
+            <td><input type="radio" name="agama"><label>Islam</label> 
+                <input type="radio" name="agama"><label>Kristen</label>
+                <input type="radio" name="agama"><label>Katholik</label>
+                <input type="radio" name="agama"><label>Hindu</label>
+                <input type="radio" name="agama"><label>Konghucu</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Foto</td>
+            <td><input type="file" accept="image/*"></td>
+        </tr>
+        </table>
+        <table width="100%">
+        <tr>
+            <td><input type="submit" value="Simpan"></td>
+            <td align="right"><a href="index.html"><button>Kembali</button></a></td>
+        </tr>
+    </table>
+
+</body>
+</html>
